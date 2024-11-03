@@ -38,6 +38,8 @@ func main() {
 		2: {ID: 2, Name: "Bob", Email: "bob@gmail.com", Role: "user"},
 	}
 
+	
+
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
 	})
